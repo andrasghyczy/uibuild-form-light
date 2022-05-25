@@ -41,12 +41,11 @@ body {
     height: 64px;
     
     padding: 12px 20px;
-    padding-bottom: 45px;
     margin: 8px 0;
     
     font-family: 'EB Garamond', serif;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 16px;
     color: #467745;
 
     display: inline-block;
