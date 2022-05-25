@@ -1,0 +1,122 @@
+body {
+    background-color: #f7e4d4;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 480px;
+    height: auto;
+}
+
+@media (max-width: 520px) {
+    .container {
+      width: calc(100% - 40px);
+      height: auto;
+    }
+  }
+
+.container h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #467745;
+
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    .container h1 {
+      font-size: 36px;
+    }
+  }
+
+.textInput {
+    width: 100%;
+    height: 64px;
+    
+    padding: 12px 20px;
+    padding-bottom: 45px;
+    margin: 8px 0;
+    
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #467745;
+
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+
+}
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #467745;
+}
+
+#textArea {
+    width: 100%;
+    height: 120px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.checkBox {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: none;
+}
+
+.checkbox-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #467745;
+}
+
+.checkbox-container p a {
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.button-container button {
+    width: 280px;
+    height: 80px;
+
+    border: 2px solid #467745;
+    border-radius: 50px;
+    background-color: #467745;
+    
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #f7e4d4;
+
+    letter-spacing: 0.2em;
+
+    text-align: center;
+    text-transform: uppercase;
+}
